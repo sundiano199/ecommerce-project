@@ -1,0 +1,7 @@
+====== Git And Github======
+git status - at anytime
+git init - initialize an empty git repo (only in a new project
+)
+git add .
+git commit -m "first commit"
+cntl + j to open terminal in vs code
