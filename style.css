@@ -162,7 +162,7 @@ button img {
   }
   .heading-underline {
     /* display: flex; */
-  width: 57.5%; /* fixed length */
+  width: 970px; /* fixed length */
   height: 0.5px;
   background-color: var(--Grayish-blue);
   margin: 0 auto;
