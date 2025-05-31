@@ -65,7 +65,7 @@ nav {
 #arrows-wrapper {
   position: absolute;
   bottom: 150px;
-  display: flex;
+  display: flex; 
   justify-content: space-between;
   align-items: center;
   left: 0;
@@ -153,21 +153,17 @@ button img {
 @media (min-width: 1024px) {
   .container {
     /* border: 2px solid red; */
-    padding: 20px 150px;
+    padding: 20px 0;
+    margin: 0 180px;
+    border-bottom: 2px solid var(--Dark-grayish-blue);
+    
   }
   #nav {
     
     margin-bottom: 34px;
    
   }
-  .heading-underline {
-    /* display: flex; */
-  width: 970px; /* fixed length */
-  height: 0.5px;
-  background-color: var(--Grayish-blue);
-  margin: 0 auto;
-  margin-top: -35px;
-  }
+ 
   ul {
     display: flex;
     gap: 20px;
@@ -189,6 +185,7 @@ button img {
     /* border: 1px solid black; */
     margin: 0 auto;
     padding: 20px 200px;
+    margin-top: -70px;
     justify-content: space-between;
     display: flex;
     /* grid-template-columns: 1.3fr 1fr; */
